@@ -602,10 +602,10 @@
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="73.5"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tYy-qm-bQA" userLabel="Title View">
-                                        <rect key="frame" x="0.0" y="0.0" width="350" height="73.5"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="358" height="73.5"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" text="Current Risk Level" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LpH-l8-dtB" customClass="DynamicTypeLabel" customModule="ENA" customModuleProvider="target">
-                                                <rect key="frame" x="16" y="24" width="318" height="33.5"/>
+                                                <rect key="frame" x="16" y="24" width="326" height="33.5"/>
                                                 <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
@@ -634,13 +634,13 @@
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6Yg-bN-9lH" customClass="UIControl">
-                                <rect key="frame" x="357" y="15" width="50" height="50"/>
+                                <rect key="frame" x="361" y="11" width="50" height="50"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Icons - Close" translatesAutoresizingMaskIntoConstraints="NO" id="YMn-0h-IfS">
-                                        <rect key="frame" x="9" y="9" width="32" height="32"/>
+                                        <rect key="frame" x="13" y="13" width="24" height="24"/>
                                         <constraints>
-                                            <constraint firstAttribute="width" constant="32" id="4SS-e6-rGY"/>
-                                            <constraint firstAttribute="height" constant="32" id="yXr-N0-R0S"/>
+                                            <constraint firstAttribute="width" constant="24" id="4SS-e6-rGY"/>
+                                            <constraint firstAttribute="height" constant="24" id="yXr-N0-R0S"/>
                                         </constraints>
                                     </imageView>
                                 </subviews>
@@ -694,7 +694,7 @@
         <image name="Icons - Close" width="30" height="30"/>
         <image name="Icons - Home" width="32" height="32"/>
         <image name="Icons_Dot" width="32" height="32"/>
-        <image name="Icons_RisikoBegegnung" width="128" height="128"/>
+        <image name="Icons_RisikoBegegnung" width="20" height="20"/>
         <image name="Illu_Appinfo_Kontakt" width="375" height="229"/>
         <namedColor name="background">
             <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
